@@ -12,7 +12,7 @@ using MailKit.Security;
 namespace api.Controllers
 {
     // Just use action name as route
-    [Route("[action]")]
+    [Route("[controller]")]
     public class GenerateController : Controller
     {
         public const string MAIL_HOST = "mail";
